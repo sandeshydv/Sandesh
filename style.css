@@ -107,3 +107,18 @@ font-weight:bold;
 0%{transform:translateX(0);}
 100%{transform:translateX(-100%);}
 }
+<div class="logo-container">
+
+<div class="logo-circle">
+🎯
+</div>
+
+<h1 class="brand-name">
+TARGET NIRMAN
+</h1>
+
+<p class="tagline">
+Learning • Guidance • Success
+</p>
+
+</div>
