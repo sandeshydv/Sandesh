@@ -122,3 +122,24 @@ transition: all 0.3s;
 .btn:hover {
 transform: scale(1.08);
 }
+.bg-animation{
+position:fixed;
+width:100%;
+height:100%;
+top:0;
+left:0;
+background:
+radial-gradient(circle at 20% 20%,#2563eb55 0%,transparent 25%),
+radial-gradient(circle at 80% 80%,#7c3aed55 0%,transparent 25%);
+animation: moveBg 10s infinite alternate;
+z-index:-1;
+}
+
+@keyframes moveBg{
+from{
+transform:scale(1);
+}
+to{
+transform:scale(1.2);
+}
+}
