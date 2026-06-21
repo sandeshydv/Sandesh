@@ -122,3 +122,54 @@ Learning • Guidance • Success
 </p>
 
 </div>
+.logo-container{
+margin-bottom:40px;
+}
+
+.logo-circle{
+width:120px;
+height:120px;
+margin:auto;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:60px;
+
+background:
+linear-gradient(
+135deg,
+#2563eb,
+#7c3aed
+);
+
+box-shadow:
+0 0 30px rgba(37,99,235,.5);
+
+animation:pulse 3s infinite;
+}
+
+.brand-name{
+font-size:4rem;
+font-weight:800;
+margin-top:20px;
+letter-spacing:3px;
+}
+
+.tagline{
+font-size:1.2rem;
+opacity:.8;
+margin-top:10px;
+}
+
+@keyframes pulse{
+0%{
+transform:scale(1);
+}
+50%{
+transform:scale(1.08);
+}
+100%{
+transform:scale(1);
+}
+}
