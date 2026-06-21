@@ -173,3 +173,32 @@ transform:scale(1.08);
 transform:scale(1);
 }
 }
+.hero{
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+position:relative;
+
+overflow:hidden;
+
+
+
+/* YOUR BACKGROUND IMAGE */
+
+background-image: url("Screenshot 2026-06-21 6.21.59 PM.png");
+
+background-size: cover;
+
+background-position: center;
+
+background-repeat: no-repeat;
+
+}
