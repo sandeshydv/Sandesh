@@ -60,3 +60,65 @@ text-align:center;
 padding:20px;
 margin-top:40px;
 }
+/* Fade In Animation */
+@keyframes fadeIn {
+from {
+opacity: 0;
+transform: translateY(30px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+/* Hero Animation */
+.hero {
+animation: fadeIn 1.2s ease-out;
+}
+
+/* Card Hover Effect */
+.card {
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+transform: translateY(-8px);
+box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Navigation Hover */
+nav a {
+position: relative;
+transition: color 0.3s;
+}
+
+nav a::after {
+content: "";
+position: absolute;
+width: 0;
+height: 2px;
+left: 0;
+bottom: -5px;
+background: #60a5fa;
+transition: width 0.3s;
+}
+
+nav a:hover::after {
+width: 100%;
+}
+
+/* Button Animation */
+.btn {
+display: inline-block;
+padding: 12px 25px;
+background: #2563eb;
+color: white;
+text-decoration: none;
+border-radius: 30px;
+transition: all 0.3s;
+}
+
+.btn:hover {
+transform: scale(1.08);
+}
